@@ -19,10 +19,10 @@ font-style: normal;     line-height: 1.5;
 }
 
 header.primary{
-  background-color:#3b638b;
+  background-color:#f3d4cc;
   text-align:center;
   color:#ffffff;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 2px 2px #c2aaa3;
   /* Longform */
   padding-top:40px;
   padding-right:40px;
@@ -40,7 +40,7 @@ header.primary{
 }
 
 header.primary h1 {
-  font-size:3.2rem;
+  font-size:3.6rem;
   margin: 20px 0;
 }
 
@@ -50,7 +50,7 @@ header.primary h1 a{
 }
 
 header.primary h2{
-  font-size: 2em;
+  font-size: 2.5em;
   margin:20px auto 40px;
 }
 
@@ -73,7 +73,7 @@ header.primary nav ul li{
 header.primary nav ul li a:link, header.primary nav ul li a:visited {
   color:#ffffff;
   text-decoration:none;
-  background-color:#000000;
+  background-color:#c2aaa3;
   background-color: rgba(0,0,0,.4);
   padding:8px 16px;
   border-radius:20px;
