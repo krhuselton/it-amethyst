@@ -1,4 +1,38 @@
-header{
-    background-color:#ffd4d3;
-    
+h1{
+    color:#FD72AD;
+    text-shadow: 2px 2px white;
+    text-align:center;
+   font-family: operetta-12,serif;
+font-weight: 900;
+font-style: normal;
+    font-size:4em;
+    text-decoration: underline;
+}
+body{
+    background-color:#CFE3FF;
+    font-family: operetta-12,serif;
+font-weight: 500;
+font-style: normal;
+    color:#A561FF;
+}
+a, a:visited{
+     font-family: operetta-12,serif;
+font-weight: 500;
+font-style: normal;
+    color:#FD72AD;
+    text-decoration: none;
+    background-color:white;
+    padding:1%;
+    text-align: center;
+    margin:1%;
+    display:list-item;
+    border-radius: 20px;
+    font-size:1.5em;
+}
+a:hover{
+    background-color: #FCCE9E;
+    color:#A561FF;
+}
+ul{
+list-style: none;    
 }
