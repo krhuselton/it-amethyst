@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Unit Conversion Assignment</title>
+<meta charset="UTF-8"/>
+<meta name="description" content="Unit Conversion Javascript Assignment" />
+<meta name="author" content="Kalyn Renee" />
+<script src="assets/js/script.js"></script>
+<link rel="stylesheet" href="assets/css/style.css"/>
+        
+</head>
+<body>
+   <h1>Unit Converter (AJAX)</h1>
+      <section>
+      <h3>Unit Converter (AJAX)</h3>
+       <form action="convert.php" method="post" id="conversionform">
+      <div>
+        <label for="fromvalue">From Value:</label>
+        <input type="text" id="fromvalue" name="fromvalue" />
+      </div>
+      <div>
+        <label for="fromunits">From Unit:</label>
+          <option value="0" selected="selected">Select unit</option>
+          <input type="radio" value="centimeters" id="centimeters"><label for="centimeters">centimeters</label>
+            <input type="radio" value="meters" id="meters"><label for="meters">meters</label>          
+<input type="radio" value="kilometers" id="kilometers"><label for="kilometers">kilometers</label>
+         <input type="radio" value="inches" id="inches"><label for="inches">inches</label>
+<input type="radio" value="feet" id="feet"><label for="feet">feet</label>          <input type="radio" value="yards" id="yards"><label for="yards">yards</label>
+          <input type="miles" value="miles" id="miles"><label for="miles">miles</label>
+        <label for="tounits">To Unit:</label>
+        <select name="tounits" id="tounits">
+           <option value="0" selected="selected">Select unit</option>
+          <input type="radio" value="centimeters" id="centimeters"><label for="centimeters">centimeters</label>
+            <input type="radio" value="meters" id="meters"><label for="meters">meters</label>          
+<input type="radio" value="kilometers" id="kilometers"><label for="kilometers">kilometers</label>
+         <input type="radio" value="inches" id="inches"><label for="inches">inches</label>
+<input type="radio" value="feet" id="feet"><label for="feet">feet</label>          <input type="radio" value="yards" id="yards"><label for="yards">yards</label>
+          <input type="miles" value="miles" id="miles"><label for="miles">miles</label>
+        </select>
+      </div>
+      <input type="submit" value="Calculate" >
+      <input type="reset" value="Clear">
+
+        </form>    
+    </section>
+</body>
+</html>

@@ -1,0 +1,18 @@
+#from {
+display:block;
+}
+#to {
+    display:block;
+}
+#fdate {
+    display:block;
+}
+#tdate {
+    display:block;
+}
+#submit{
+    display:block;
+}
+#clear{
+    display:inline;
+}

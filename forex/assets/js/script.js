@@ -1,0 +1,1 @@
+Real-Time: wscat -c wss://socket.polygon.io/forex

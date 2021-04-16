@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="assets/css/style.css"/>
+        <script src="assets/js/script.js"></script>
+        </head>
+    <body>
+        <h1>Currency Value History</h1>
+        <form>
+            <label for="from">Base Currency</label>
+            <select id="from">
+                <option value="usd">USD</option>
+                <option value="gbp">GBP</option>
+                <option value="eur">EUR</option>
+            </select>
+            <label for="to">Convert to Currency</label>
+            <select id="to">
+                <option value="usd">USD</option>
+                <option value="gbp">GBP</option>
+                <option value="eur">EUR</option>
+            </select>
+            <label for="fdate">From Date:</label>
+            <input type="date">
+            <br>
+            <label for="tdate">To Date:</label>
+            <input type="date">
+            <input type="submit" id="submit" value="Show Results">
+            <input type="reset" id="reset" value="Clear">
+        </form>
+    </body>
+    </html>
