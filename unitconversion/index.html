@@ -18,26 +18,30 @@
         <label for="fromvalue">From Value:</label>
         <input type="text" id="fromvalue" name="fromvalue" />
       </div>
+      <br>
       <div>
-        <label for="fromunits">From Unit:</label>
-          <option value="0" selected="selected">Select unit</option>
-          <input type="radio" value="centimeters" id="centimeters"><label for="centimeters">centimeters</label>
+        <label for="fromunits">From Unit:</label>          <input type="radio" value="centimeters" id="centimeters"><label for="centimeters">centimeters</label>
             <input type="radio" value="meters" id="meters"><label for="meters">meters</label>          
 <input type="radio" value="kilometers" id="kilometers"><label for="kilometers">kilometers</label>
          <input type="radio" value="inches" id="inches"><label for="inches">inches</label>
 <input type="radio" value="feet" id="feet"><label for="feet">feet</label>          <input type="radio" value="yards" id="yards"><label for="yards">yards</label>
-          <input type="miles" value="miles" id="miles"><label for="miles">miles</label>
+          <input type="radio" value="miles" id="miles"><label for="miles">miles</label>
+          <br>
+          <br>
         <label for="tounits">To Unit:</label>
-        <select name="tounits" id="tounits">
-           <option value="0" selected="selected">Select unit</option>
           <input type="radio" value="centimeters" id="centimeters"><label for="centimeters">centimeters</label>
             <input type="radio" value="meters" id="meters"><label for="meters">meters</label>          
 <input type="radio" value="kilometers" id="kilometers"><label for="kilometers">kilometers</label>
          <input type="radio" value="inches" id="inches"><label for="inches">inches</label>
 <input type="radio" value="feet" id="feet"><label for="feet">feet</label>          <input type="radio" value="yards" id="yards"><label for="yards">yards</label>
-          <input type="miles" value="miles" id="miles"><label for="miles">miles</label>
+          <input type="radio" value="miles" id="miles"><label for="miles">miles</label>
         </select>
       </div>
+      <br>
+      <label class="formlabel">To Value: </label>
+            <span id="ToValue"></span>
+            <br>
+            <br>
       <input type="submit" value="Calculate" >
       <input type="reset" value="Clear">
 
