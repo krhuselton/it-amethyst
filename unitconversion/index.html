@@ -13,22 +13,22 @@
    <h1>Unit Converter (AJAX)</h1>
       <section>
       <h3>Unit Converter (AJAX)</h3>
-       <form action="convert.php" method="post" id="conversionform">
+       <form id="conversionform">
       <div>
         <label for="fromvalue">From Value:</label>
-        <input type="text" id="fromvalue" name="fromvalue" />
+        <input type="text" id="fromvalue" name="fromvalue" data-rule-required="true" data-msg-required="From Value is Required" />
       </div>
       <br>
       <div>
-        <label for="fromunits">From Unit:</label>          <input type="radio" value="centimeters" id="centimeters"><label for="centimeters">centimeters</label>
-            <input type="radio" value="meters" id="meters"><label for="meters">meters</label>          
-<input type="radio" value="kilometers" id="kilometers"><label for="kilometers">kilometers</label>
-         <input type="radio" value="inches" id="inches"><label for="inches">inches</label>
-<input type="radio" value="feet" id="feet"><label for="feet">feet</label>          <input type="radio" value="yards" id="yards"><label for="yards">yards</label>
-          <input type="radio" value="miles" id="miles"><label for="miles">miles</label>
+        <label for="fromunits" id="fromunits">From Unit:</label>          <input type="radio" value="centimeters" id="fcentimeters"><label for="centimeters">centimeters</label>
+            <input type="radio" value="meters" id="fmeters"><label for="meters">meters</label>          
+<input type="radio" value="kilometers" id="fkilometers"><label for="kilometers">kilometers</label>
+         <input type="radio" value="inches" id="finches"><label for="inches">inches</label>
+<input type="radio" value="feet" id="ffeet"><label for="feet">feet</label>          <input type="radio" value="yards" id="fyards"><label for="yards">yards</label>
+          <input type="radio" value="miles" id="fmiles"><label for="miles">miles</label>
           <br>
           <br>
-        <label for="tounits">To Unit:</label>
+        <label for="tounits" id="tounits">To Unit:</label>
           <input type="radio" value="centimeters" id="centimeters"><label for="centimeters">centimeters</label>
             <input type="radio" value="meters" id="meters"><label for="meters">meters</label>          
 <input type="radio" value="kilometers" id="kilometers"><label for="kilometers">kilometers</label>
@@ -38,12 +38,12 @@
         </select>
       </div>
       <br>
-      <label class="formlabel">To Value: </label>
-            <span id="ToValue"></span>
+      <label id="endingvalue">To Value: </label>
+            <span id="endingvalue"></span>
             <br>
             <br>
-      <input type="submit" value="Calculate" >
-      <input type="reset" value="Clear">
+      <input type="submit" value="Calculate" onclick="calculate()">
+      <input type="reset" value="Clear" onclick="clearform()">
 
         </form>    
     </section>
